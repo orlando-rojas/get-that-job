@@ -35,15 +35,23 @@ of the file will be displayed when you go to [/jobs](http://localhost:4567/jobs)
 
 [Explaining Video](https://share.getcloudapp.com/WnuNBWZg)
 
-### Starting the application
+### Installation
+
+To install the application dependencies, run `bundle install`.
+If bundle is not updated it will prompt you to run `bundle update --bundler`, if so, 
+run that command and then rerun `bundle install`
+
+### Running the app
 
 You can start the app with `ruby app.rb`
+
+You can see the app if you go to [http://localhost:4567/](http://localhost:4567/)
 
 ### Adding assets
 
 [Explanation](https://share.getcloudapp.com/YEuAXYjO)
 
-### Resoruces
+### Resources
 
 - [Design](https://www.figma.com/file/LAdYG5wMqFFpCYLlZGEHCf/Get-That-Job-Gate-Evaluation?node-id=4%3A20919)
 - [Stories](./stories.md)
