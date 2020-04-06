@@ -45,6 +45,8 @@ run that command and then rerun `bundle install`
 
 You can start the app with `ruby app.rb`
 
+You can see the app if you go to [http://localhost:4567/](http://localhost:4567/)
+
 ### Adding assets
 
 [Explanation](https://share.getcloudapp.com/YEuAXYjO)
