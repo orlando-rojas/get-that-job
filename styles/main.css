@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+body {
+    font-family: 'Nunito', sans-serif;
+    max-width: 1440px;
+}
+
+/*!* ---- Set other Font ---- *!*/
+/*.alt-font {*/
+/*    font-family: 'Overpass', sans-serif !important;*/
+/*}*/
+
+/* =========== Section Titles (All "H" are here) =========== */
+.title {
+    /* ---- Class for H1 texts without SPACING---- */
+    font-size: 46px;
+}
+
+.title.spacing {
+    /* ---- Class for H1 texts with SPACING---- */
+    letter-spacing: -1.5px;
+}
+
+.sub-title {
+    /* ---- Class for H2 texts without SPACING---- */
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.sub-title.alt {
+    /* ---- Class for H2 texts with SPACING and Other FONT ---- */
+    font-family: 'Overpass', sans-serif !important;
+    letter-spacing: -1px;
+    color: #000000;
+}
+
+.x-sub-title {
+    /* ---- Class for H3 texts ---- */
+    font-size: 32px;
+}
+
+.xx-sub-title {
+    /* ---- Class for H4 texts ---- */
+    font-size: 28px;
+}
+
+.xxx-sub-title {
+    /* ---- Class for H5 texts ---- */
+    font-size: 24px;
+}
+
+/* =========== Section Buttons (All "a role button,button, input type submit" are here) =========== */
+
+.btn {
+    /* ---- Basic button style ---- */
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    background: #3C2DFF;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: 1px solid #3C2DFF;
+    cursor: pointer;
+    outline: none;
+}
+
+a.btn {
+    /* ---- A tags as Buttons ---- */
+    border: none;
+}
+
+
+.btn.small {
+    /* ---- For btn that has a small font ---- */
+    font-size: 12px !important;
+    line-height: 20px !important;
+}
+
+
+.btn.big {
+    /* ---- For btn that has a bigger font ---- */
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+/* =========== Section Paragraph (All "p" are here) =========== */
+
+
+.paragraph {
+    /* ---- Basic font por "p" tag ---- */
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.paragraph.x-big {
+    /* ---- Font for "p" tag that is a MUCH BIGGER ---- */
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.paragraph.x-big.alt {
+    /* ---- Font for "p" tag that is a MUCH BIGGER and Have OTHER FONT ---- */
+    font-family: 'Overpass', sans-serif !important;
+}
+
+.paragraph.big {
+    /* ---- Font for "p" tag that is a little BIGGER ---- */
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.paragraph.small {
+    /* ---- Font for "p" tag that is a little SMALLER ---- */
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.paragraph.small.alt {
+    /* ---- Font for "p" tag that is a little SMALLER  and Have OTHER FONT---- */
+    font-family: 'Overpass', sans-serif !important;
+}
+
+.paragraph.x-small.alt.bold {
+    /* ---- Font for "p" tag that is a MUCH SMALLER  and Have OTHER FONT and is BOLD---- */
+    font-family: 'Overpass', sans-serif !important;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+/* ---- Label ---- */
+.label {
+    /* ---- Font size and color for "Label" tag ---- */
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+    margin: 0 2px;
+}
