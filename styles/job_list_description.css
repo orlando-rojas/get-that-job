@@ -14,7 +14,7 @@
     width: 510px;
 }
 
-.testimonial-paragraph-left {
+.job_list_description-paragraph-left {
     color: #FFFFFF;
 }
 
@@ -40,7 +40,7 @@
     margin: 0;
 }
 
-.testimonial-paragraph-right::after {
+.job_list_description-paragraph-right::after {
     content: url("../assets/peru_logo.png");
     vertical-align: -20%;
     margin-left: 9px;
