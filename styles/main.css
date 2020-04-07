@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     max-width: 1440px;
+    background-color: #F7FAFC;
+}
+
+.container {
+    padding: 0 15%;
 }
 
 /*!* ---- Set other Font ---- *!*/
@@ -139,4 +150,21 @@ a.btn {
     line-height: 22px;
     color: #262626;
     margin: 0 2px;
+}
+
+.input {
+    background: #FFFFFF;
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.input::placeholder {
+    padding-left: 12px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #BFBFBF;
 }
