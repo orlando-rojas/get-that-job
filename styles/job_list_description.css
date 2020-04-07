@@ -1,0 +1,100 @@
+.job_list_description {
+    background: #3C2DFF;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.job_list_description-left {
+    width: 510px;
+}
+
+.job_list_description-paragraph-left {
+    color: #FFFFFF;
+}
+
+.job_list_description-right {
+    width: 447px;
+}
+
+
+.job_list_description-item {
+    padding: 25px 10px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.job_list_description-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.job_list_description-item-detail p {
+    margin: 0;
+}
+
+.job_list_description-paragraph-right::after {
+    content: url("../assets/peru_logo.png");
+    vertical-align: -20%;
+    margin-left: 9px;
+}
+
+.job_list_description-item-job {
+    color: #4A5568;
+}
+
+.technology-tag {
+    padding: 2px 5px;
+    background: rgba(60, 45, 255, 0.69);
+    color: #FFFFFF;
+}
+
+.job_list_description-item-paragraph {
+    color: #718096;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        max-width: 768px !important;
+    }
+
+    .job_list_description-left {
+        margin-bottom: 20px;
+    }
+
+    .job_list_description {
+        flex-direction: column !important;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
