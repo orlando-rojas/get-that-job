@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15%;
+  height: 100px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.navbar div,
+.navbar nav {
+  display: flex;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-links li {
+  margin: 0 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #000000;
+}
+
+.navbar button {
+  display: inline-flex;
+  margin: 0 10px;
+  font-weight: 800;
+  background: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+
+.sign-in-btn {
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.create-account-btn {
+  color: #3C2DFF;
+  border: 2px solid #3C2DFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 3%;
+  }
+}
