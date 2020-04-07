@@ -1,0 +1,99 @@
+/* ---- Inputs Style ---- */
+.input-email, .input-text, .text-area {
+    display: block;
+    font-family: 'Overpass', sans-serif !important;
+    font-size: 16px;
+    padding: 13px 24px;
+    border-radius: 6px;
+    border: 1px solid #C9CCD4;
+}
+
+/* ----------------------*/
+.get-in-touch {
+    font-family: 'Overpass', sans-serif !important;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.get-in-touch-header {
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.get-in-touch-right {
+    min-width: 500px;
+}
+
+.get-in-touch-left .title {
+    margin: 0 0 11px 0;
+}
+
+.get-in-touch-paragraph-bold {
+    margin-bottom: 147px;
+}
+
+.get-in-touch-input-email, .get-in-touch-input-name, .get-in-touch-text-area {
+    width: 100%;
+}
+
+.get-in-touch-text-area {
+    height: 150px;
+}
+
+.get-in-touch-right {
+    margin-bottom: 0;
+}
+
+.get-in-touch-right input:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.input-submit-container {
+    position: absolute;
+}
+
+.get-in-touch-btn-submit {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    border: 1px solid #000000;
+    padding-left: 40px;
+    position: relative;
+    background: #000000 url("../assets/message-icon.png") no-repeat 10% 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
