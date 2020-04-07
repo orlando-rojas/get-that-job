@@ -46,6 +46,10 @@
     margin-left: 9px;
 }
 
+.job_list_description-item-job {
+    color: #4A5568;
+}
+
 .technology-tag {
     padding: 2px 5px;
     background: rgba(60, 45, 255, 0.69);

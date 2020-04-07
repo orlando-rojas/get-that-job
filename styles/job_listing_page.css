@@ -1,0 +1,179 @@
+.job-listing-page-table {
+    width: 100%;
+}
+
+.job-listing-page-table tbody tr td {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.table-job-tfoot-load-more {
+    margin-top: 20px;
+}
+
+
+.job-listing-page-search-form {
+    display: inline;
+}
+
+.job-listing-page-main-filters {
+    text-align: left;
+}
+
+.job-listing-page-header-filter-recommended {
+    text-align: right;
+}
+
+.table-job-item-container:first-child {
+    margin-top: 20px;
+}
+
+.job-listing-page-main-filters *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.table-job-item-container {
+    cursor: pointer;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-job-item-left, .table-job-item-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.table-job-item-right *:not(:last-child) {
+    margin-right: 15px;
+}
+
+.able-logo-small {
+    margin-right: 15px;
+}
+
+.table-job-item-paragraph-job-description {
+    color: #4A5568;
+}
+
+.table-job-item-paragraph-job-description::after {
+    margin-left: 5px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    content: "NEW";
+    background: #FF0D0D;
+    color: #FFFFFF;
+    vertical-align: 25%;
+}
+
+.table-job-item-detail p {
+    margin: 0;
+
+}
+
+.table-job-item-paragraph-city::after {
+    content: url("../assets/peru_logo.png");
+    vertical-align: -20%;
+    margin-left: 9px;
+}
+
+.table-job-item-technology-tag {
+    padding: 2px 5px;
+    background: rgba(60, 45, 255, 0.69);
+    color: #FFFFFF;
+}
+
+.table-job-item-paragraph-day {
+    color: #718096;
+}
+
+
+.input-filter-job {
+    padding: 11px 10px 11px 44px;
+    outline: none;
+    background: url("../assets/search_logo.png") no-repeat 10% 45%;
+}
+
+.input-filter-job, .select-filter-job-list {
+    font-family: 'Nunito', sans-serif !important;
+    border-radius: 4px;
+    font-size: 13px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.select-filter-job-list {
+    display: inline-block;
+    list-style: none;
+    font-weight: normal;
+    color: #4A5568;
+    padding: 11px 10px 11px 10px;
+}
+
+.select-filter-name {
+    display: inline-block;
+}
+
+.select-filter-name::after {
+    display: inline-block;
+    margin-left: 22px;
+    padding-right: 12px;
+    color: transparent;
+    content: "_";
+    position: relative;
+    background: url("../assets/arrow_drop_down.png") no-repeat center;
+}
+
+.select-filter-name:hover::after {
+    transform: rotate(180deg);
+}
+
+.select-filter-drop-down ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    display: none;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+.select-filter-name:hover ~ .select-filter-drop-down > ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.filter-drop-down-container-options {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.filter-drop-down-container-options li {
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.filter-recommended {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
