@@ -71,7 +71,21 @@
 }
 
 
-
+@media only screen and (max-width: 768px) {
+    .get-in-touch-left {
+        margin-bottom: 20px;
+    }
+    .get-in-touch-paragraph-bold {
+        margin-bottom: 0;
+    }
+    .get-in-touch {
+        flex-direction: column !important;
+    }
+    .get-in-touch-btn-submit{
+        width: 100%;
+        background-position: 35%;
+    }
+}
 
 
 
