@@ -6,8 +6,9 @@
 
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin: 0 auto;
 }
 
 .hero-text .title {
@@ -16,6 +17,7 @@
 
 .hero-text .paragraph {
   margin: 20px 0;
+  max-width: 531px;
 }
 
 @media screen and (max-width: 768px) {

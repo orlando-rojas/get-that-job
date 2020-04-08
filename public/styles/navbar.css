@@ -1,16 +1,18 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  padding: 0 6%;
   align-items: center;
   margin: 0 auto;
-  padding: 0 15%;
   height: 100px;
   background-color: #fff;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar h1 {
-  margin: 0;
-  font-family: Nunito;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
