@@ -1,0 +1,9 @@
+<section class="faq">
+  <h1 class="title title-spacing">FAQs</h1>
+  
+  <ul class="faq-list">
+    <% (0..9).each { |i| %>
+      <%= erb :faq_item %>
+    <% } %>
+  </ul>
+</section>
