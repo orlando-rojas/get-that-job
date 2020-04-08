@@ -2,12 +2,17 @@
     width: 100%;
 }
 
+.job-listing-title {
+    padding-left: 20px;
+}
+
 .job-listing-page-table tbody tr td {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
 .table-job-tfoot-load-more {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -32,6 +37,7 @@
 }
 
 .table-job-item-container {
+    background-color: #FFFFFF;
     cursor: pointer;
     padding: 16px 20px;
     display: flex;
@@ -93,10 +99,11 @@
 .input-filter-job {
     padding: 11px 10px 11px 44px;
     outline: none;
-    background: url("../../assets/search_logo.png") no-repeat 10% 45%;
+    background: url("../assets/search_logo.png") no-repeat 10% 45%;
 }
 
 .input-filter-job, .select-filter-job-list {
+    background-color: #FFFFFF;
     font-family: 'Nunito', sans-serif !important;
     border-radius: 4px;
     font-size: 13px;
@@ -163,7 +170,17 @@
 }
 
 
+@media only screen and (max-width: 768px) {
+    body {
+        max-width: 768px !important;
+    }
 
+    .job-listing-title {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
 
 
 

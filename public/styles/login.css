@@ -45,6 +45,6 @@
   .login-form,
   .reset-success {
     max-width: 80%;
-    margin: 5% auto 0 auto;
+    margin: 5% auto 5% auto;
   }
 }
