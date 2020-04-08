@@ -1,5 +1,11 @@
 # Get That Job
 
+# GROUP-2
+- Orlando Rojas
+- Wilber Carrascal
+- Andres Del Carpio
+- Fernando Pareja
+
 ## App
 
 Get that job is a Sinatra application.
