@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 130px auto 0 auto;
+  margin: 130px auto;
 }
 
 .login-form .x-sub-title {
@@ -33,6 +33,7 @@
 
 .reset-success {
   margin-top: 132px;
+  margin-bottom: 132px;
   text-align: center;
 }
 
@@ -44,7 +45,6 @@
   .login-form,
   .reset-success {
     max-width: 80%;
-    margin: 0 auto;
-    padding: 5%;
+    margin: 5% auto 0 auto;
   }
 }
