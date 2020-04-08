@@ -74,7 +74,7 @@
 }
 
 .table-job-item-paragraph-city::after {
-    content: url("../assets/peru_logo.png");
+    content: url("../../assets/peru_logo.png");
     vertical-align: -20%;
     margin-left: 9px;
 }
@@ -93,7 +93,7 @@
 .input-filter-job {
     padding: 11px 10px 11px 44px;
     outline: none;
-    background: url("../assets/search_logo.png") no-repeat 10% 45%;
+    background: url("../../assets/search_logo.png") no-repeat 10% 45%;
 }
 
 .input-filter-job, .select-filter-job-list {
@@ -123,7 +123,7 @@
     color: transparent;
     content: "_";
     position: relative;
-    background: url("../assets/arrow_drop_down.png") no-repeat center;
+    background: url("../../assets/arrow_drop_down.png") no-repeat center;
 }
 
 .select-filter-name:hover::after {

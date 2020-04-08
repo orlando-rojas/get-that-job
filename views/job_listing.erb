@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="public/styles/main.css"/>
+<link rel="stylesheet" href="public/styles/job_listing_page.css"/>
+<h1 class="x-sub-title">Jobs For you</h1>
+<table class="job-listing-page-table">
+  <thead>
+  <tr class="job-listing-page-main-filters">
+    <th colspan="5" class="job-listing-page-header-filter-job">
+      <form method="get" class="job-listing-page-search-form">
+        <input class="input-filter-job" type="search" placeholder="Find that job!">
+      </form>
+      <ul class="select-filter-job-list">
+        <li class="select-filter-name">Country</li>
+        <li class="select-filter-drop-down">
+          <ul class="filter-drop-down-container-options">
+            <li class="select-filter-opt">Peru</li>
+            <li class="select-filter-opt">Colombia</li>
+            <li class="select-filter-opt">Arequipa</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="select-filter-job-list">
+        <li class="select-filter-name">Type</li>
+        <li class="select-filter-drop-down">
+          <ul class="filter-drop-down-container-options">
+            <li class="select-filter-opt">Full-Time</li>
+            <li class="select-filter-opt">Part-Time</li>
+            <li class="select-filter-opt">Contract</li>
+            <li class="select-filter-opt">For Free</li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="select-filter-job-list">
+        <li class="select-filter-name">Experience</li>
+        <li class="select-filter-drop-down">
+          <ul class="filter-drop-down-container-options">
+            <li class="select-filter-opt">No Experience</li>
+            <li class="select-filter-opt">Junior</li>
+            <li class="select-filter-opt">Semi Senior</li>
+            <li class="select-filter-opt">Senior</li>
+            <li class="select-filter-opt">Codeable</li>
+          </ul>
+        </li>
+      </ul>
+    </th>
+    <th class="job-listing-page-header-filter-recommended">
+      <ul class="select-filter-job-list">
+        <li class="select-filter-name">Recommended</li>
+        <li class="select-filter-drop-down">
+          <ul class="filter-drop-down-container-options filter-recommended">
+            <li class="select-filter-opt">Newest</li>
+            <li class="select-filter-opt">Highest Salary</li>
+            <li class="select-filter-opt">Lowest Salary</li>
+          </ul>
+        </li>
+      </ul>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <% (1..8).each { |i| %>
+    <%= erb :'reusable_component/job_item' %>
+  <% } %>
+  </tbody>
+  <tfoot>
+  <tr>
+    <th colspan="6">
+      <button class="btn table-job-tfoot-load-more">Load more</button>
+    </th>
+  </tr>
+  </tfoot>
+</table>

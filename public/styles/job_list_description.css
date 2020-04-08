@@ -41,7 +41,7 @@
 }
 
 .job_list_description-paragraph-right::after {
-    content: url("../assets/peru_logo.png");
+    content: url("../../assets/peru_logo.png");
     vertical-align: -20%;
     margin-left: 9px;
 }

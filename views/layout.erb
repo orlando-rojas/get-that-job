@@ -3,17 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" href="../styles/main.css"/>
+  <%= erb :styles_links %>
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://kit.fontawesome.com/de8d320d41.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<!-- This will be on all pages -->
-<%= erb :navbar %>
-
+<%= erb :'reusable_component/navbar' %>
 <%= yield %>
+<%= erb :'reusable_component/footer' %>
 </body>
 </html>
