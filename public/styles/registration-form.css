@@ -80,7 +80,6 @@ textarea {
   height: 16px;
   display: inline-block;
   background: #3c2dff;
-  background-position: ;
   border: 1px solid #3c2dff;
   border-radius: 50%;
   position: absolute;
@@ -120,7 +119,6 @@ textarea {
   height: 16px;
   display: inline-block;
   background: #3c2dff;
-  background-position: ;
   border: 1px solid #3c2dff;
   border-radius: 4px;
   position: absolute;
@@ -174,5 +172,9 @@ textarea {
   }
   .reg-form-title {
     text-align: center;
+  }
+  .reg-form-container{
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 }
