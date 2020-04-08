@@ -1,10 +1,15 @@
+.faq {
+  max-width: 60%;
+  margin: 5% 7%;
+}
+
 .faq-list {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
 .faq-list-item {
+  margin: 4% auto;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
@@ -12,10 +17,18 @@
 }
 
 .faq-list-item h2 {
+  margin: 2% auto;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   display: flex;
   align-items: center;
   color: #262626;
+}
+
+@media only screen and (max-width: 1439px) {
+  .faq {
+    max-width: 90%;
+    margin: 5% 7%;
+  }
 }
