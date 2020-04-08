@@ -6,5 +6,6 @@ get "/:page?" do
   else
     erb params["page"].to_sym, layout: :layout
   end
-set:port, ENV['PORT'] || 4567
 end
+
+set:port, ENV['PORT'] || 4567
