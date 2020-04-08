@@ -1,48 +1,50 @@
 .login-form {
-    max-width: 256px;
-    font-weight: 'Nunito';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 130px auto 0 auto;
+  max-width: 256px;
+  font-weight: "Nunito";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 130px auto;
 }
 
 .login-form .x-sub-title {
-    text-align: center;
-    margin-bottom: 16px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .login-form .forgot-password {
-    text-decoration: none;
-    color: #3C2DFF;
-    text-align: center;
+  text-decoration: none;
+  color: #3c2dff;
+  text-align: center;
 }
 
 .login-form .btn {
-    margin-top: 12px;
-    margin-bottom: 8px;
+  margin-top: 12px;
+  margin-bottom: 8px;
 }
 
 .login-form > * {
-    width: 100%;
+  width: 100%;
 }
 
 .login-form .input {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .reset-success {
-    margin-top: 132px;
-    text-align: center;
+  margin-top: 132px;
+  margin-bottom: 132px;
+  text-align: center;
 }
 
 .reset-success .paragraph {
-    margin-top: 19px;
+  margin-top: 19px;
 }
 
-@media screen and (max-width: 768px){
-    .login-form, .reset-success {
-       max-width: 80%;
-       margin: 5% auto 0 auto;
-    }
+@media screen and (max-width: 768px) {
+  .login-form,
+  .reset-success {
+    max-width: 80%;
+    margin: 5% auto 0 auto;
+  }
 }
