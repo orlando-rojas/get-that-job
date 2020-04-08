@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 0 15%;
   height: 100px;
+  background-color: #fff;
 }
 
 .navbar h1 {
@@ -64,8 +65,8 @@
 }
 
 .create-account-btn {
-  color: #3C2DFF;
-  border: 2px solid #3C2DFF;
+  color: #3c2dff;
+  border: 2px solid #3c2dff;
 }
 
 @media only screen and (max-width: 768px) {
