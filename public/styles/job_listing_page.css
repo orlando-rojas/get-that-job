@@ -60,6 +60,7 @@
 }
 
 .table-job-item-paragraph-job-description {
+    text-decoration: none;
     color: #4A5568;
 }
 

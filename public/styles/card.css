@@ -9,6 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-items: end;
+  background-color: #fff;
 }
 .card-header {
   text-align: center;
