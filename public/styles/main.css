@@ -9,9 +9,13 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    max-width: 1440px;
     background-color: #F7FAFC;
     margin: 0 auto !important;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .container {
