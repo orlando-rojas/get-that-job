@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration-Form</title>
+    <link rel="stylesheet" href="../styles/registration-form.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body>
+    <div class="reg-form-container">
+      <h3 class="x-sub-title reg-form-title">Complete your signup</h3>
+      <form action="">
+        <div class="reg-form-row">
+          <div class="reg-form-label">
+            <label class="label" for="name">Name</label>
+          </div>
+          <div class="reg-form-input">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Large Input"
+            />
+            <p class="reg-form-p">Use your real first and last name</p>
+          </div>
+        </div>
+        <div class="reg-form-row">
+          <div class="reg-form-label">
+            <label for="prodescription">Professional Description</label>
+          </div>
+          <div class="reg-form-input">
+            <input
+              type="text"
+              id="prodescription"
+              name="prodescription"
+              placeholder="e.g Software Engineer, Mememaster, Pokemaster"
+            />
+            <p class="reg-form-p">Short an specific text about what you do</p>
+          </div>
+        </div>
+
+        <div class="reg-form-row">
+          <div class="reg-form-label">
+            <label for="work">Work Experience</label>
+          </div>
+          <div class="reg-form-input">
+            <textarea
+              id="work"
+              name="work"
+              placeholder="Worked 6 years in a bitcoin farm until I decided to change my life...."
+            ></textarea>
+            <p class="reg-form-p">
+              Tells us about your work experience, what did you do before
+              joining this top community?
+            </p>
+          </div>
+        </div>
+        <div class="reg-form-row">
+          <div class="reg-form-label">
+            <label for="joke">Tell us a joke</label>
+          </div>
+          <div class="reg-form-input">
+            <textarea
+              id="joke"
+              name="joke"
+              placeholder="Q: Why do chemists enjoy working with ammonia? A: Because it's pretty basic stuff."
+            ></textarea>
+            <p class="reg-form-p">
+              Tells us about your work experience, what did you do before
+              joining this top community?
+            </p>
+          </div>
+        </div>
+        <div class="reg-form-row">
+          <div class="reg-form-label">
+            <label>Work Type preference</label>
+          </div>
+          <div class="reg-form-radio-wrapper">
+            <div class="reg-form-radio">
+              <input
+                type="radio"
+                id="Full-Time"
+                name="worktype"
+                value="Full-Time"
+              />
+              <label for="Full-Time">Full-Time</label>
+            </div>
+            <div class="reg-form-radio">
+              <input
+                type="radio"
+                id="Part-Time"
+                name="worktype"
+                value="Part-Time"
+              />
+              <label for="Part-Time">Part-Time</label>
+            </div>
+            <div class="reg-form-radio">
+              <input
+                type="radio"
+                id="Contract"
+                name="worktype"
+                value="Contract"
+              />
+              <label for="Contract">Contract</label>
+            </div>
+            <div class="reg-form-radio">
+              <input
+                type="radio"
+                id="For Free"
+                name="worktype"
+                value="For Free"
+              />
+              <label for="For Free">For Free</label>
+            </div>
+          </div>
+        </div>
+        <div class="reg-form-check reg-form-row">
+          <input type="checkbox" id="email" name="email" value="email" />
+          <label for="email"
+            >I wish to receive regular dad jokes in my email</label
+          ><br />
+          <input
+            type="checkbox"
+            id="exchange"
+            name="exchange"
+            value="exchange"
+          />
+          <label for="exchange"
+            >I wish that you sell my data and give me nothing in exchange</label
+          >
+        </div>
+
+        <div class="reg-form-input reg-form-row">
+          <input type="submit" value="Create Account" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
